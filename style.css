@@ -1,0 +1,48 @@
+@font-face{
+	font-family:'BPG Mikheil Stefane';
+	src:url(BPG_Mikhail_Stephan.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family:'BPG Mikheil Stefane';
+	background-image: url(back.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #170d08;
+}
+.my{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mx{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.d-flex{
+	display: flex;
+}
+.just-center{
+	justify-content: center;
+}
+.title{
+	text-align: center;
+	font-size: 32px
+}
+.parrent{
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stars{
+	text-align: center;
+}
+i{
+	font-size: 16px;
+}
